@@ -1,0 +1,28 @@
+.mainContainer{
+    flex: 5;
+    height: 100vh;
+    display: flex;
+
+}
+.profileContainer{
+    background: url('/public/assets/suit.jpg');
+    width: 35%;
+    height: 40%;
+    object-fit: cover;
+    border: 2px solid pink;
+    border-radius: 20%;
+    background-size: cover;
+    margin-right: 20px;
+}
+.profileImage img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid blue;
+    margin-bottom: 70px;
+}
+.profileContainer h6{
+    font-size: 15px;
+    color: white;
+}

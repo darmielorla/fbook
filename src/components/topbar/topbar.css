@@ -1,0 +1,67 @@
+.topbarContainer{
+    display: flex;
+    height: 50px;
+    background-color: blue;
+    align-items: center;
+}
+.topbarLeft{
+    flex: 2;
+    color: white;
+}
+.topbarCenter{
+    flex: 5;
+    
+}
+.topbarCenter input{
+    width: 70%;
+    border: none;
+    height: 30px;
+    border-radius: 30px;
+    padding-left: 25px;
+}
+.topbarCenter .search{
+    position: absolute;
+    font-size: 25px;
+    top: 13px;
+    
+}
+.topbarRight .timeline{
+    display: flex;
+    color: white;
+    margin-right: 30px;
+}
+.topbarRight .timeline p{
+    margin: 20px;
+}
+.topbarRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+.topbarRight .profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.linksIcon .links{
+    display: flex;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.linksIcon{
+    display: flex;
+}
+.linksIcon .links span{
+    background-color: red;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    top: -4px;
+    right: -6px;
+}
